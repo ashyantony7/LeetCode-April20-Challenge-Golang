@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     30 day LeetCode 
-	<a href="https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/">Challenge</a> (April 2020) with Golang
+	<a href="https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/">Challenge</a> (April 2020) with Golang
 </p>
 <p align="center">
 	Feel free to pull or suggest a new effective solution to problems.
