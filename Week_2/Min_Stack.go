@@ -8,8 +8,8 @@ type MinStack struct {
 /** initialize your data structure here. */
 func Constructor() MinStack {
 	m := new(MinStack)
-	m.stack = make([]int, 1)
-	m.minVal = make([]int, 1)
+	m.stack = make([]int, 0)
+	m.minVal = make([]int, 0)
 	return *m
 }
 
@@ -58,7 +58,7 @@ func (this *MinStack) GetMin() int {
 
 func main() {
 
-	s := new(MinStack)
+	s := Constructor()
 	s.Push(2)
 	s.Push(0)
 	s.Push(3)
